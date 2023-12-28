@@ -1,0 +1,34 @@
+/* ToggleSwitch.css */
+.toggle_switch_container{
+  align-items: center;
+  justify-content: center;
+  position: inherit;
+  display: flex;
+}
+.toggle-switch {
+    width: 50px;
+    height: 25px;
+    background-color: #dcdcdc;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+  }
+  
+  .toggle-switch.checked {
+    background-color: #4cd964; /* Set the background color for the checked state */
+  }
+  
+  .toggle-slider {
+    width: 20px;
+    height: 20px;
+    border-radius: 13px;
+    background-color: #ffffff;
+    transition: transform 0.3s;
+  }
+  
+  .toggle-switch.checked .toggle-slider {
+    transform: translateX(25px);
+  }
+  
